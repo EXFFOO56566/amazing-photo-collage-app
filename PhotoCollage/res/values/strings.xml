@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Photo Collage</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_grid">GridActivity</string>
+    <string name="title_activity_selected_image">SelectedImageActivity</string>
+<string name="adUnitId_banner">ca-app-pub-2691806550199991/4372930267</string>
+   <string name="adUnitId_intersitial">ca-app-pub-2691806550199991/5849663461</string>
+  
+</resources>

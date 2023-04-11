@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bag2"
+    android:orientation="vertical"
+    
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+      
+        android:background="@drawable/heaer" >
+    </ImageView>
+    
+<com.google.android.gms.ads.AdView
+			    xmlns:ads="http://schemas.android.com/apk/res-auto"
+			    android:id="@+id/adView"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    ads:adUnitId="@string/adUnitId_banner"
+			   
+			    ads:adSize="BANNER"/>
+
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:numColumns="auto_fit"
+        android:scrollbars="horizontal" >
+
+    </GridView>
+    
+     
+
+</LinearLayout>
